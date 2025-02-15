@@ -1,0 +1,61 @@
+body{
+    background-color: aquamarine;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+li{
+    margin: 1rem;
+}
+
+.principal{
+    background-color: aquamarine;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.principal__inicio{
+    background-color: antiquewhite;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.principal__inicio__titulo{
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+
+.principal__inicio__texto{
+    width: 20rem;
+    padding: 0.38rem;
+    border-radius: 0.20rem;
+}
+
+.principal__inicio__boton{
+    background-color: rgb(7, 142, 7);
+    color: white;
+    border-radius: 0.5rem;
+    margin: 3rem;
+    padding: 0.38rem;
+    width: 12rem;
+    font-size: 0.98rem;
+}
+
+.borrar_btn{
+    background-color: red;
+    color: white;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

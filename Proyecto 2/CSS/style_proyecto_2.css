@@ -1,0 +1,16 @@
+.principal__caja{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 200px;
+    border: 2px solid #000;
+    font-size: 16px;
+    font-weight: bold;
+};
+
+.principal__caja__boton{
+    display: none;
+}

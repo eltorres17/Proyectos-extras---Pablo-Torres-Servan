@@ -57,5 +57,17 @@ li{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.principal__inicio__aleatorio{
+    background-color: aquamarine;
+    width: 20rem;
+    font-size: 0.89rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.seleccionado{
+    background-color: yellow;
 }
